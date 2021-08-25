@@ -10,3 +10,8 @@ The project will last for around one and a half month until the October of Year 
 ## Ep2_Build a new classroom
 + add several bsp and convert to SM so that the unit wall can be used
 + build a classroom
+
+## Ep3_Modify the classroom
++ add some doors
++ add some glasses
++ add a trigger volume at door
