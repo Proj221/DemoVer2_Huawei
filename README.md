@@ -31,7 +31,10 @@ The project will last for around one and a half month until the October of Year 
 + when the player is overlapping with the trigger box, the class will change from on to off, or vice versa
 + rename the TriggerBox to TB
 
+<<<<<<< HEAD
 ## Ep7_Fix the door animation issue
 
 
+=======
+>>>>>>> 08b3f0cc2545cb12bfaff79883403ed656ccbd57
 
