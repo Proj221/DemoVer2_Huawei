@@ -25,4 +25,13 @@ The project will last for around one and a half month until the October of Year 
 + add a new custom event to exec the door rotation
 + the door workflow is: 1.detect overlap, 2.check if player, 3.assign correct door, 4.exec the door rotation
 
+## Ep6_Set Class on and off
++ add a new custom event in game mode to receive notification from trigger box on class on off information
++ add a func in TB_ClassOn to set the class on off status
++ when the player is overlapping with the trigger box, the class will change from on to off, or vice versa
++ rename the TriggerBox to TB
+
+## Ep7_Fix the door animation issue
+
+
 
