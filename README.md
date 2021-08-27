@@ -35,3 +35,8 @@ The project will last for around one and a half month until the October of Year 
 
 ## Ep8_Ray casting to set wall to glass
 + if the camera boom is interacting with any walls, then make the wall to transparent
+
+## Ep9_Create a PDA and a DA
++ PDA for primary data asset where the base info is stored in the PDA
++ DA for data asset where the detailed (specific) info will be stored
+
