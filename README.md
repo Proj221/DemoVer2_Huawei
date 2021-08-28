@@ -45,3 +45,10 @@ The project will last for around one and a half month until the October of Year 
 + add widget when the class is on
 + create new mainPlayerController
 
+## Ep11_To solve the extra click after the card appear and disappear
++ https://www.youtube.com/watch?v=RvDHS5KOn58
++ https://community.gamedev.tv/t/attempting-to-focus-non-focusable-widget-sobjectwidget/116586/3
++ add some bp nodes at card appear and disappear area
+
+## Ep12_Set Card background color
++ add bp code in widget construct to set the card bg color according to DA
