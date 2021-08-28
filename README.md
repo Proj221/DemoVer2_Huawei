@@ -40,3 +40,8 @@ The project will last for around one and a half month until the October of Year 
 + PDA for primary data asset where the base info is stored in the PDA
 + DA for data asset where the detailed (specific) info will be stored
 
+## Ep10_Add new widget when class is on
++ create mainHUD and widget
++ add widget when the class is on
++ create new mainPlayerController
+
