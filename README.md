@@ -52,3 +52,11 @@ The project will last for around one and a half month until the October of Year 
 
 ## Ep12_Set Card background color
 + add bp code in widget construct to set the card bg color according to DA
+
+## Ep13_Set question session
++ add question session now and max in game state
++ in game mode, set question session increment function to record the session
++ in card sys, call question session after click (release) the card, and to further check if the session reaches the max
++ in door open, check if the question session matches the max session. If not, then do not open the door
++ in game mode, delay some time between question sessions
++ set max session to 3 so that each time we enter into the classroom we need to choose for 3 times
