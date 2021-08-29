@@ -60,3 +60,11 @@ The project will last for around one and a half month until the October of Year 
 + in door open, check if the question session matches the max session. If not, then do not open the door
 + in game mode, delay some time between question sessions
 + set max session to 3 so that each time we enter into the classroom we need to choose for 3 times
+
+## Ep14_Migrate some props from SciFi Office Proj
++ A monitor
++ A paper
++ Fix the reference relationship between the starter content and the asset
+
+
+
