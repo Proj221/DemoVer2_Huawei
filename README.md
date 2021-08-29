@@ -66,5 +66,10 @@ The project will last for around one and a half month until the October of Year 
 + A paper
 + Fix the reference relationship between the starter content and the asset
 
+## Ep15_Add a new logic in question session increment func
++ add a new the pre-requiste to appear the Card Chossing UI: the class on has to be true (to avoid when class is off but the UI appears)
+
+
+
 
 
