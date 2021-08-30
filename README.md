@@ -69,7 +69,19 @@ The project will last for around one and a half month until the October of Year 
 ## Ep15_Add a new logic in question session increment func
 + add a new the pre-requiste to appear the Card Chossing UI: the class on has to be true (to avoid when class is off but the UI appears)
 
+## Ep16_Set input methods and create actors
++ in bp_main widget to set a button for calling a monitor around the player
++ and a new func in func lib to get transform offset around the actor (to spawn the actor more easily around the player)
++ modify codes in CPP to comment out the direct mouse axis control
++ // PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
++ // PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
++ in bp add input axis turn and left alt to set as a key input combine for controlling camera rotation
++ same action to input axis lookup
++ in func lib to add a new func called get main widget to capture the main widget easily
 
+## Ep17_Set left alt key to toggle the mouse cursor usage
++ in thirdPersonChara, to set left alt key as the toggle switch to enable the mouse cursor (game and ui) and only game
++ in thirdPersonChara, to set left alt key as the toggle switch to enable mouse movement as the input for character pitch and yaw
 
 
 
