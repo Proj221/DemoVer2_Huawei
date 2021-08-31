@@ -93,4 +93,5 @@ The project will last for around one and a half month until the October of Year 
 + reference to: https://blog.csdn.net/ali013719291765/article/details/102425497
 + bug: if dragging out of the box, then OnDrop func will not be triggered, then the card would disappear
 
-
+## Ep19_Bug fix for Ep18
++ Modify a bit in CardSys_v2 to add child properly according to the screen position
