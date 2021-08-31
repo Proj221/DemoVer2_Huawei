@@ -83,5 +83,14 @@ The project will last for around one and a half month until the October of Year 
 + in thirdPersonChara, to set left alt key as the toggle switch to enable the mouse cursor (game and ui) and only game
 + in thirdPersonChara, to set left alt key as the toggle switch to enable mouse movement as the input for character pitch and yaw
 
+## Ep18_Create widgets to drag and drop (2D)
++ rename previous cardsys to cardsys_v1
++ create new cardsys called cardsys_v2, in v2, 2 scroll boxes are included (later it should be changed to one scroll box, and 3 bound slots)
++ create new cardsingle to store a single card template. introduce a new var and make it expose to spawn so that the value can be initiated in the widget constructor
++ set KEY:Z to call out the cardsys_v2
++ use KEY:Z also to disable cam pitch and yaw
++ set a root node to single card, (overlay) so that the size would not be affected in the scrollbox (should further check if grid array is supported in scroll box)
++ reference to: https://blog.csdn.net/ali013719291765/article/details/102425497
++ bug: if dragging out of the box, then OnDrop func will not be triggered, then the card would disappear
 
 
