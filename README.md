@@ -95,3 +95,8 @@ The project will last for around one and a half month until the October of Year 
 
 ## Ep19_Bug fix for Ep18
 + Modify a bit in CardSys_v2 to add child properly according to the screen position
+
+## Ep20_Restructure the bag and the slot
++ seperate the whole Card sys UI to Overall, Bag and Slot1/2/3
++ use slot 1, 2 and 3 to store the card, use mask to recycle the card
+
