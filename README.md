@@ -103,3 +103,11 @@ The project will last for around one and a half month until the October of Year 
 ## Ep21_Refactor the input mode
 + use left Alt to toggle camera (TBD)
 + use Z to toggle card sys (this is the 2D Main UI)
+
+## Ep22_Modify BP_CardSys
++ modify GetTransOffsetAroundActor to set the widget appear when pressed left alt
++ input changed to: DistFromActor, DistOffset, CombineRotation, ScaleValue
++ DistFromActor, float, this defines the distance from the character pivot point, along with the camera forward vector
++ DistOffset, vector, the distance offset based on DistFromActor
++ CombineRotation, rotator, not used yet
++ ScaleValue: the scale to the original widget
