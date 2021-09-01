@@ -116,3 +116,7 @@ The project will last for around one and a half month until the October of Year 
 + left alt and button to switch between 1st and 3rd angle
 + card sys UI will appear after switch to 1st person angle
 + Bug: switch back to 3rd person chara, UI would still appear
+
+## Ep24_bug fix for switching back with new UI
++ when switching back from 1st to 3rd, destroy the UI panel
++ to be solved: make the timeline a var and set this var in game state instead of chara
