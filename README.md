@@ -100,3 +100,6 @@ The project will last for around one and a half month until the October of Year 
 + seperate the whole Card sys UI to Overall, Bag and Slot1/2/3
 + use slot 1, 2 and 3 to store the card, use mask to recycle the card
 
+## Ep21_Refactor the input mode
++ use left Alt to toggle camera (TBD)
++ use Z to toggle card sys (this is the 2D Main UI)
