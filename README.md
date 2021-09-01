@@ -111,3 +111,8 @@ The project will last for around one and a half month until the October of Year 
 + DistOffset, vector, the distance offset based on DistFromActor
 + CombineRotation, rotator, not used yet
 + ScaleValue: the scale to the original widget
+
+## Ep23_Add 1st and 3rd camera angle
++ left alt and button to switch between 1st and 3rd angle
++ card sys UI will appear after switch to 1st person angle
++ Bug: switch back to 3rd person chara, UI would still appear
