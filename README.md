@@ -123,3 +123,6 @@ The project will last for around one and a half month until the October of Year 
 
 ## Ep25_3D widget is too difficult to tune
 + if 3D widget will reuse again, please set the branch from here!!!
+
+## Ep26_Fix the issue of card invisibility when the card is dragged out of the viewport
++ add a OnDragCancelled event in the card single and once the event is called, set the card visibility to true
