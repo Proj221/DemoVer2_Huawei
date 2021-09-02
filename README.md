@@ -120,3 +120,6 @@ The project will last for around one and a half month until the October of Year 
 ## Ep24_bug fix for switching back with new UI
 + when switching back from 1st to 3rd, destroy the UI panel
 + to be solved: make the timeline a var and set this var in game state instead of chara
+
+## Ep25_3D widget is too difficult to tune
++ if 3D widget will reuse again, please set the branch from here!!!
