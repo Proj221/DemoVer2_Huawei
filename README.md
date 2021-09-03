@@ -130,3 +130,5 @@ The project will last for around one and a half month until the October of Year 
 ## Ep27_Change card holder to scroll box + wrap box
 + under scroll box, a wrap box is added to avoid any grid construction
 
+## Ep28_Fix child not able to add back to card bag bug
++ in card bag, first check if the bag has already got the child, if not, then add the child
