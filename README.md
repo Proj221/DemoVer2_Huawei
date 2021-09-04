@@ -141,3 +141,5 @@ The project will last for around one and a half month until the October of Year 
 + in the card bag, note that the input to create widget type is changed from name to integer. Accordingly, in the display session where the card num is displayed, the var needs to be transferred from int to name
 + import sanguosha cards
 + change the position of the slot and the show box
+
+## Ep30_If we change cardDisp from "World" to "Screen", then the UI would become following along with the camera (always)
