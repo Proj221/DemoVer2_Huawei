@@ -132,3 +132,12 @@ The project will last for around one and a half month until the October of Year 
 
 ## Ep28_Fix child not able to add back to card bag bug
 + in card bag, first check if the bag has already got the child, if not, then add the child
+
+## Ep29_Add textures to the picture, and add card show window
++ in the card single, add mouse action detection on mouse enter and mouse leave, to trigger the show window show and hide
++ in the card single, add a new func on defining the card texture (NOTE that the random func is always failed on matching the card single in bag and card info in card show. need further investigation why the random func is not a good choice here)
++ in the card show, add 2 new custom event on show and hide the card information. Note that the show card info will consume the card idx as the input
++ in the card info, add a new func on defining the card texture based on the idx
++ in the card bag, note that the input to create widget type is changed from name to integer. Accordingly, in the display session where the card num is displayed, the var needs to be transferred from int to name
++ import sanguosha cards
++ change the position of the slot and the show box
