@@ -143,3 +143,8 @@ The project will last for around one and a half month until the October of Year 
 + change the position of the slot and the show box
 
 ## Ep30_If we change cardDisp from "World" to "Screen", then the UI would become following along with the camera (always)
+
+## Ep31_Add 4 trigger boxes and a new level
++ 4 trigger boxes would trigger math class, chinese class, english class and common class seperately
++ one new level would be reused for 4 classrooms
++ the design target is changed to demoVer2 PRD now!
