@@ -154,3 +154,8 @@ The project will last for around one and a half month until the October of Year 
 + seprate the mainScene with the classroomScene more differently
 + add some texture render on walls to identify the classroom name
 + set transparent effect not only to the wallset but also to classroomConstruct
+
+## Ep33_Add new loading level
++ add a new var in gameInstance to set which level should be loaded after the loading bar finished
++ add a new loading level, consisted of a background image and a progress bar
++ add the logic to check the progress by the tick delta time, when the delta time is accumulating and exceeds 1.0, the system would load for the next level
