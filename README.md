@@ -148,3 +148,9 @@ The project will last for around one and a half month until the October of Year 
 + 4 trigger boxes would trigger math class, chinese class, english class and common class seperately
 + one new level would be reused for 4 classrooms
 + the design target is changed to demoVer2 PRD now!
+
+## Ep32_Move all vars from gameState to game Instance
++ use mainGameInstance to store all the variables used to store in gameState
++ seprate the mainScene with the classroomScene more differently
++ add some texture render on walls to identify the classroom name
++ set transparent effect not only to the wallset but also to classroomConstruct
