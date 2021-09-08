@@ -159,3 +159,7 @@ The project will last for around one and a half month until the October of Year 
 + add a new var in gameInstance to set which level should be loaded after the loading bar finished
 + add a new loading level, consisted of a background image and a progress bar
 + add the logic to check the progress by the tick delta time, when the delta time is accumulating and exceeds 1.0, the system would load for the next level
+
+## Ep34_Change Door logic and set keyHint in chara
++ change door open logic in classroom scene. bind the door Static Mesh to the collision box
++ set the logic to the text render (child to follow camera) so that once the actor approaches the teacher desk, the text render would appear (to hint player for class ON authorization)
