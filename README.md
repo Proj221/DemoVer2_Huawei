@@ -169,3 +169,6 @@ The project will last for around one and a half month until the October of Year 
 + a single event trigger conditions include: 1.event is ready, 2.user is pressing the key, 3.the new event gate is true
 + add a debug btn in card sys to jump out of an event
 + bug: when jumping in an event, the mouse would able to use to drag the chara yaw and pitch. To solve the issue, the pitch yaw movement should be sealed in a seperate custom event.
+
+## Ep36_Bug fix for Ep35
++ add a new function especially for toggle UI mode in person chara
