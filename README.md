@@ -172,3 +172,7 @@ The project will last for around one and a half month until the October of Year 
 
 ## Ep36_Bug fix for Ep35
 + add a new function especially for toggle UI mode in person chara
+
+## Ep37_Set camera transition in chara for class ON and OFF
++ in game mode, the class on is seperated to ToggleUIMode, SwingCamera, MembersReady and ShowCardSys
++ in player chara, add a new func called transitCamPos to coordinate the camera position for class ON and OFF (or potentially other features in future)
