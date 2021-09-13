@@ -176,3 +176,7 @@ The project will last for around one and a half month until the October of Year 
 ## Ep37_Set camera transition in chara for class ON and OFF
 + in game mode, the class on is seperated to ToggleUIMode, SwingCamera, MembersReady and ShowCardSys
 + in player chara, add a new func called transitCamPos to coordinate the camera position for class ON and OFF (or potentially other features in future)
+
+## Ep38_Set the camera change when press Q key
++ set a new pawn called cam pawn for manage camera view in classroom
++ when pressing Q key, the controller would abandon to master the thirdpersoncharacter and to swing to the other camera
