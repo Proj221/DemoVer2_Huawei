@@ -180,3 +180,8 @@ The project will last for around one and a half month until the October of Year 
 ## Ep38_Set the camera change when press Q key
 + set a new pawn called cam pawn for manage camera view in classroom
 + when pressing Q key, the controller would abandon to master the thirdpersoncharacter and to swing to the other camera
+
+## Ep39_Set the character controlled by AIC while the player is controlling the camera pawn
++ in thirdPersonCharacter, integrate possess and unpossess the proper camera
++ create a new AIController, for controlling the character while the player is on Camera (need to be modulized in future)
++ tester: add a new behavior tree and play animation with JUMP, in AIC to run the BT for testing if the AIC is truly controlling the character and to check if the player is able to override the AIC
