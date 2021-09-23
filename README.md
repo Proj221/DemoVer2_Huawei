@@ -185,3 +185,8 @@ The project will last for around one and a half month until the October of Year 
 + in thirdPersonCharacter, integrate possess and unpossess the proper camera
 + create a new AIController, for controlling the character while the player is on Camera (need to be modulized in future)
 + tester: add a new behavior tree and play animation with JUMP, in AIC to run the BT for testing if the AIC is truly controlling the character and to check if the player is able to override the AIC
+
+## Ep40_Set the character controlled by AI_PlayerController and fix the lerp issue
++ always remember: the lerp should start from the START value, and end at the END value, not start from the DELTA value (or intermidiate value)
++ set a new AIPlayerController for controlling the player character while the player is actually holding the class on camera
++ set a new blackboard and a new behavior tree especially for controlling the class on BB and BT
