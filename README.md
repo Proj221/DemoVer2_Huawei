@@ -190,3 +190,8 @@ The project will last for around one and a half month until the October of Year 
 + always remember: the lerp should start from the START value, and end at the END value, not start from the DELTA value (or intermidiate value)
 + set a new AIPlayerController for controlling the player character while the player is actually holding the class on camera
 + set a new blackboard and a new behavior tree especially for controlling the class on BB and BT
+
+## Ep41_Set the character responding according to the "ANNOUNCE"
++ add 2 buttons on card sys to toggle class annouce begin and end
++ add BT logic to respond according to the annouce instruction
++ add flag in the AI player controller for controlling if the player (and other NPCs) is ready to class (where the character is at their own classroom desk)
