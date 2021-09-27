@@ -195,3 +195,6 @@ The project will last for around one and a half month until the October of Year 
 + add 2 buttons on card sys to toggle class annouce begin and end
 + add BT logic to respond according to the annouce instruction
 + add flag in the AI player controller for controlling if the player (and other NPCs) is ready to class (where the character is at their own classroom desk)
+
+## Ep42_Bug remained
++ card drag and drop system is not able to use now
