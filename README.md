@@ -198,3 +198,8 @@ The project will last for around one and a half month until the October of Year 
 
 ## Ep42_Bug remained
 + card drag and drop system is not able to use now
+
+## Ep43_Bug fixed
++ NOTE: always use NOT HIT-TESTABLE (SELF ONLY) on the card system widget, rather than visible, to avoid the CANNOT drag drop issue
+
+
