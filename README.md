@@ -202,4 +202,11 @@ The project will last for around one and a half month until the October of Year 
 ## Ep43_Bug fixed
 + NOTE: always use NOT HIT-TESTABLE (SELF ONLY) on the card system widget, rather than visible, to avoid the CANNOT drag drop issue
 
+## Ep44_Add announce trigger logic
++ in the game mode, add new custom event on checking if the teacher should announce class is ON
++ the preconditions on checking if should announce are: 1.studentRegistrationList length is equal to studentReadyList, 2.StudentRegistrationList length is not 0, 3.HasAnnounced is false
++ StudentRegistrationList will be effective when the Player press E key to engage Class On event, and will be cleared when the Class Off event is triggered
++ StudentReadyList will be effective when the Player BT triggers the task on setting ClassReady to true, and will be cleared when the Class Off event is triggered
++ HasAnnounced will be triggered once the announce event is triggered, and will be reset when the Class Off event is triggered
+
 
