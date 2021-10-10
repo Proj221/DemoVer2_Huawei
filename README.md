@@ -209,4 +209,9 @@ The project will last for around one and a half month until the October of Year 
 + StudentReadyList will be effective when the Player BT triggers the task on setting ClassReady to true, and will be cleared when the Class Off event is triggered
 + HasAnnounced will be triggered once the announce event is triggered, and will be reset when the Class Off event is triggered
 
+## Ep45_Add conversation system
++ preliminary conversation system includes a structure to store the conversation text, which role it should show and left/right side it should show at
++ add a new UI window to show conversation, includes the text area and 2 role image areas
++ add the conversation session in between of the normal game mode and the card sys show mode
++ the click flow now is: press E key to start class, click anywhere you want on the screen to proceed the conversation session until the conversation session is end, then the card system will appear, after choosing the card to use, click the button (development btn) on top left to end the class session
 
